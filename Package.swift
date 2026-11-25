@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/leviouwendijk/Errors.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Errors.git", branch: "master"),
     ],
     targets: [
         // a thin wrapper over the system libsqlite3
